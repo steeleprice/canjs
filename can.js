@@ -1,3 +1,3 @@
-steal('can/util', 'can/control', 'can/model', 'can/view/ejs', 'can/route', function(can) {
-	return can;
-});
+export * from "./core.js";
+export * from "./ecosystem.js";
+export * from "./legacy.js";
